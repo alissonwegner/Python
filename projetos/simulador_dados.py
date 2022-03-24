@@ -1,0 +1,31 @@
+import random
+req=[]
+repeticao = 100000000
+for cont in range(repeticao):
+    x= random.randint(1,6)
+    req.insert(cont,x) 
+    
+rep1=req.count(1)
+por1 = rep1/(repeticao/100)
+print("O numero 1 repete", rep1)
+print("O numero 1 repetiu: ", por1,"%")
+rep2=req.count(2)
+por2 = rep2/(repeticao/100)
+print("O numero 2 repete", rep2)
+print("O numero 2 repetiu: ", por2,"%")
+rep3=req.count(3)
+por3 = rep3/(repeticao/100)
+print("O numero 3 repete", rep3)
+print("O numero 3 repetiu: ", por3,"%")
+rep4=req.count(4)
+por4 = rep4/(repeticao/100)
+print("O numero 4 repete", rep4)
+print("O numero 4 repetiu: ", por4,"%")
+rep5=req.count(5)
+por5 = rep5/(repeticao/100)
+print("O numero 5 repete", rep5)
+print("O numero 5 repetiu: ", por5,"%")
+rep6=req.count(6)
+por6 = rep6/(repeticao/100)
+print("O numero 6 repete", rep6)
+print("O numero 6 repetiu: ", por6,"%")
